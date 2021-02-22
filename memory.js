@@ -34,20 +34,20 @@ window.onload = function () {
 //Functions of the game
 
 function startGame() {
-  //Modificar tablero
+  //Modify the table
   let data = document.getElementById("game");
   data.style.opacity = 1;
 
-  //Ocultar boton
+  //Hide Button
   document.getElementById("Start").style.display = "none";
-  // Mostrar boton
+  // Show Restart button
   document.getElementById("Again").style.display = "inline";
 
-  //Barajar cards
+  //sort cards
   cards.sort(function () {
     return Math.random() - 0.5;
   });
-  //Asignamos los datos a las celdas de la tabla
+  //
   for (let i = 0; i < numTokens; i++) {
     let card = cards[i].name;
     let data = document.getElementById(i.toString());
@@ -66,9 +66,9 @@ function rotateCard() {
   play2 = event.target.dataset.valor;
   idJ2 = event.target.id;
 
-  //Seleccionamos la segunda carta
+  //Selecting second card
   if (play1 !== "") {
-    //Son iguales las cards
+    //Are the cards the same
     if (
       play1 === play2 &&
       cards[parseInt(idJ2)].selection != true &&
