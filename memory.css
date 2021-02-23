@@ -29,14 +29,14 @@ input {
   height: 30px;
   width: 100px;
 }
+
 .center {
   text-align: center;
 }
 
-#Start, #Again {
+#Start,
+#Again {
   background-color: blueviolet;
   color: white;
   border: 1px solid white;
 }
-
-
