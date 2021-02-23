@@ -1,21 +1,68 @@
 /*Variables*/
-let cards = [
-  { name: "1", selection: false },
-  { name: "2", selection: false },
-  { name: "3", selection: false },
-  { name: "4", selection: false },
-  { name: "5", selection: false },
-  { name: "6", selection: false },
-  { name: "7", selection: false },
-  { name: "8", selection: false },
-  { name: "1", selection: false },
-  { name: "2", selection: false },
-  { name: "3", selection: false },
-  { name: "4", selection: false },
-  { name: "5", selection: false },
-  { name: "6", selection: false },
-  { name: "7", selection: false },
-  { name: "8", selection: false }
+let cards = [{
+    name: "1",
+    selection: false
+  },
+  {
+    name: "2",
+    selection: false
+  },
+  {
+    name: "3",
+    selection: false
+  },
+  {
+    name: "4",
+    selection: false
+  },
+  {
+    name: "5",
+    selection: false
+  },
+  {
+    name: "6",
+    selection: false
+  },
+  {
+    name: "7",
+    selection: false
+  },
+  {
+    name: "8",
+    selection: false
+  },
+  {
+    name: "1",
+    selection: false
+  },
+  {
+    name: "2",
+    selection: false
+  },
+  {
+    name: "3",
+    selection: false
+  },
+  {
+    name: "4",
+    selection: false
+  },
+  {
+    name: "5",
+    selection: false
+  },
+  {
+    name: "6",
+    selection: false
+  },
+  {
+    name: "7",
+    selection: false
+  },
+  {
+    name: "8",
+    selection: false
+  }
 ];
 let tries = 0;
 let play1 = (play2 = "");
